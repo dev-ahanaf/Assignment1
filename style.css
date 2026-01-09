@@ -175,12 +175,85 @@ card-icon img{
 }
 
 
+.solution{
+    padding: 120px 20px;
+}
+
+
+.solution-container{
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.solution-image img{
+    width: 600px;
+    height: 600px;
+}
+
+.tag{
+    color: #469165;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.solution-text h2{
+    font-size: 48px;
+    margin: 15px 0;
+    line-height: auto;
+}
+
+
+
+.solution-text ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.solution-text li{
+    margin-bottom: 10px;
+}
+
+
+.cta{
+    background: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+
+.cta p{
+    margin: 15px 0;
+}
+
+.bg1{
+    max-width: 90%;
+    height: 250px;
+
+    background-color: #F7F6F2;
+    border-radius: 12px;
+
+    padding: 40px 80px;
+    gap: 24px;
+
+
+    margin: 0 auto;
+    justify-content: center;
 
 
 
 
+}
 
 
+.note{
+    display: block;
+    margin-top: 10px;
+    color: #627382;
+}
 
 
 
