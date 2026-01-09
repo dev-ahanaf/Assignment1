@@ -24,6 +24,11 @@ body{
     border-radius: 6px;
     font-weight: 600;
     cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #3a7c57; 
 }
 
 
@@ -37,6 +42,10 @@ body{
 
 }
 
+.btn-outline:hover {
+    background: white;
+    color: #001931; 
+}
 
 .navbar{
     max-width: 1140px;
@@ -125,7 +134,7 @@ body{
     text-align: center;
 }
 
-.h2{
+.problems h2{
     font-size: 48px;
     color: #001931;
 }
@@ -188,6 +197,10 @@ card-icon img{
     gap: 60px;
 }
 
+.fa-circle-check {
+    color: #469165;
+}
+
 
 .solution-image img{
     width: 600px;
@@ -201,7 +214,7 @@ card-icon img{
 }
 
 .solution-text h2{
-    font-size: 48px;
+    font-size: 40px;
     margin: 15px 0;
     line-height: auto;
 }
