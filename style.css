@@ -5,6 +5,11 @@
 }
 
 
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
 body{
     color: #222;
 }
@@ -22,7 +27,15 @@ body{
 }
 
 
+.btn-outline{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 6px;
+    cursor: pointer;
 
+}
 
 
 .navbar{
@@ -57,6 +70,70 @@ body{
     color: #000;
     font-weight: 500;
 }
+
+
+.hero{
+    height: 90vh;
+    background: url(assets/hero-bg.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+.hero-content{
+    max-width: 700px;
+}
+
+.badge{
+    background: #fff;
+    color: #469165;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 16px;
+    align-items: center;
+}
+
+.hero h1{
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.hero h1 span{
+    color: #30B868;
+}
+
+.hero p{
+    font-size: 18px;
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
